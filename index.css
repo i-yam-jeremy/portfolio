@@ -55,3 +55,13 @@ a:visited {
 .non-main-view-header {
   text-align: center;
 }
+
+.non-main-view-subpages {
+  position: absolute;
+  text-align: left;
+  left: 1em;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
