@@ -66,6 +66,30 @@ a:visited {
   justify-content: space-between;
 }
 
+.about-me-container {
+  text-align: center;
+  width: 80%;
+}
+
+.interest-section-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.interest-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.interest-section-title {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.interest-section-desc {
+  /* TODO */
+}
+
 .projects-container {
   padding-top: 5em;
   display: flex;
