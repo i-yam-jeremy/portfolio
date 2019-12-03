@@ -4,7 +4,25 @@ body {
   padding: 0px;
 }
 
-.header-container {
+a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.view-container {
   display: flex;
   justify-content: space-around;
   height: 100vh;
@@ -26,4 +44,14 @@ body {
   font-size: 1.5em;
   margin: 0px;
   padding: 0px;
+}
+
+.header-subpages {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.non-main-view-header {
+  text-align: center;
 }
