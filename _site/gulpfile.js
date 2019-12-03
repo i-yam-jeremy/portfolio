@@ -14,30 +14,30 @@ var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
  * Build the Jekyll Site
  * runs a child process in node that runs the jekyll commands
  */
-gulp.task('jekyll-build', function (done) {
+/*gulp.task('jekyll-build', function (done) {
 	return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
 		.on('close', done);
-});
+});*/
 
 /*
  * Rebuild Jekyll & reload browserSync
  */
-gulp.task('jekyll-rebuild', gulp.series(['jekyll-build'], function (done) {
+/*gulp.task('jekyll-rebuild', gulp.series(['jekyll-build'], function (done) {
 	browserSync.reload();
 	done();
-}));
+}));*/
 
 /*
  * Build the jekyll site and launch browser-sync
  */
-gulp.task('browser-sync', gulp.series(['jekyll-build'], function(done) {
+/*gulp.task('browser-sync', gulp.series(['jekyll-build'], function(done) {
 	browserSync({
 		server: {
 			baseDir: '_site'
 		}
 	});
 	done()
-}));
+}));*/
 
 /*
 * Compile and minify sass
@@ -88,4 +88,4 @@ gulp.task('watch', function() {
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], gulp.series(['jekyll-rebuild']));
 });
 
-gulp.task('default', gulp.series(['js', 'sass', 'fonts', 'browser-sync', 'watch']));
+gulp.task('default', gulp.series([/*'js', */'sass'/*, 'fonts', 'browser-sync', 'watch'*/]));
