@@ -149,6 +149,16 @@ a:visited {
   float: left;
 }
 
+.skill-category-down-arrow {
+  height: 0.5em;
+  opacity: 1;
+  transition: 0.25s;
+}
+
+.skill-category:hover .skill-category-down-arrow {
+  opacity: 0;
+}
+
 .skills {
   background-color: #19263d;
   width: 100%;
