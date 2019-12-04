@@ -45,12 +45,25 @@
   opacity: 1;
 }
 
+.mobile-home-view-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .mobile-header {
   font-size: 0.6em;
-  margin: auto;
   text-align: center;
   padding: 5em;
+  margin: 2em 0;
   background-color: #4e6266;
+}
+
+.mobile-home-artistic-line {
+  background-color: #19263d;
+  height: 0.5em;
+  margin: 1.5em auto;
 }
 
 .mobile-non-main-view-header {
