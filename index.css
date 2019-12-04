@@ -80,7 +80,6 @@ a:visited {
 .interest-section-container {
   padding-top: 5em;
   display: flex;
-  justify-content: space-around;
 }
 
 .interest-section {
@@ -88,14 +87,7 @@ a:visited {
   flex-grow: 1;
   flex-basis: 0;
   flex-direction: column;
-}
-
-.interest-section-top {
-  padding-top: 2em;
-}
-
-.interest-section-bottom {
-  padding-top: 12em;
+  margin: 7em;
 }
 
 .interest-section-title {
@@ -135,7 +127,7 @@ a:visited {
 }
 
 .skills {
-  background-color: #2b4268;
+  background-color: #19263d;
   width: 100%;
   border: 0.1em solid #f1f2eb;
   z-index: 10;
