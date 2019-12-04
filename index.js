@@ -54,6 +54,31 @@ function toggleMobileNavSidePane() {
   isMobileNavSidePaneOpen = !isMobileNavSidePaneOpen;
 }
 
+let skillCategoriesExpanded = {
+  'languages': false,
+  'front-end': false,
+  'graphics': false,
+  'other': false,
+};
+function toggleMobileSkillCategoryExpandContract(skill) {
+  const downArrow = $(`#mobile-skill-${skill}-down-arrow`);
+  const category = $(`#mobile-skill-${skill}-category`);
+  if (skillCategoriesExpanded[skill]) {
+    downArrow.removeClass('open')
+    downArrow.addClass('closed');
+    category.removeClass('open')
+    category.addClass('closed');
+  }
+  else {
+    downArrow.removeClass('closed')
+    downArrow.addClass('open');
+    category.removeClass('closed')
+    category.addClass('open');
+  }
+  skillCategoriesExpanded[skill] = !skillCategoriesExpanded[skill];
+  console.log(skill, skillCategoriesExpanded);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   selectPage('home');
   checkForMobile();

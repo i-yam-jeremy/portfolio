@@ -136,7 +136,7 @@ a:visited {
 }
 
 .skill-category {
-  padding: 2em 2em 1em 2em;
+  padding: 1.5em 2em 1.5em 2em;
   border: 0.1em solid #f1f2eb;
   height: 2.5em;
   background-color: #21324f;
@@ -154,6 +154,7 @@ a:visited {
 }
 
 .skill-category-down-arrow {
+  margin-top: 0.25em;
   height: 0.5em;
   opacity: 1;
   transition: 0.25s;
