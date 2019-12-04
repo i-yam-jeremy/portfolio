@@ -2,6 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 a {
@@ -103,17 +104,19 @@ a:visited {
 }
 
 .skills-container {
+  display: flex;
+  justify-content: space-around;
   padding-top: 5em;
   width: 60vw;
 }
 
 .skill-category {
-  display: inline-block;
   padding: 2em 2em 1em 2em;
   border: 0.1em solid black;
   border-radius: 0.5em;
   height: 2.5em;
   background-color: white;
+  box-shadow: 5px 10px #888888;
 }
 
 .skill-category:hover {
@@ -121,19 +124,32 @@ a:visited {
 }
 
 .skill-category-title {
-  font-size: 1.5em;
-  font-weight: 700;
+  font-size: 2em;
+  font-weight: 600;
   float: left;
 }
 
-.skill-category-expand-arrow {
-  font-weight: 400;
-  transform: scaleX(2.0) rotate(90deg);
+.skills {
+  width: 100%;
+  border: 0.1em solid black;
+  z-index: 10;
+  position: absolute;
+  top: 7em;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
 }
 
-.skills {
-  position: absolute;
-  visibility: hidden;
+.skill-category:hover > .skills {
+  filter: invert(100%);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.skill {
+  padding: 1em 0 0 0;
 }
 
 .projects-container {
