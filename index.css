@@ -1,12 +1,16 @@
+/*
+ Color Palette: https://coolors.co/21324f-477998-93b7be-f1f2eb-d8dad3
+*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: #21324f;
+  color: #f1f2eb;
 }
 
 a {
-  color: black;
   font-weight: 700;
   text-decoration: none;
 }
@@ -16,11 +20,11 @@ a:hover {
 }
 
 a:active {
-  color: black;
+  color: #f1f2eb;
 }
 
 a:visited {
-  color: black;
+  color: #f1f2eb;
 }
 
 .view-container {
@@ -112,15 +116,15 @@ a:visited {
 
 .skill-category {
   padding: 2em 2em 1em 2em;
-  border: 0.1em solid black;
+  border: 0.1em solid #f1f2eb;
   border-radius: 0.5em;
   height: 2.5em;
-  background-color: white;
-  box-shadow: 5px 10px #888888;
+  background-color: #21324f;
+  position: relative;
 }
 
 .skill-category:hover {
-  filter: invert(100%);
+  background-color: #477998;
 }
 
 .skill-category-title {
@@ -131,7 +135,7 @@ a:visited {
 
 .skills {
   width: 100%;
-  border: 0.1em solid black;
+  border: 0.1em solid #f1f2eb;
   z-index: 10;
   position: absolute;
   top: 7em;
@@ -144,7 +148,6 @@ a:visited {
 }
 
 .skill-category:hover > .skills {
-  filter: invert(100%);
   opacity: 1;
   transition: 0.5s;
 }
@@ -195,7 +198,7 @@ a:visited {
   width: 100%;
   position: absolute;
   top: calc(100% - 2.5em);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(241, 242, 235, 0.95);
   margin: 0 auto;
   transition: 0.3s;
 }
@@ -207,7 +210,7 @@ a:visited {
 
 .project-title {
   margin: 0.25em;
-  color: white;
+  color: #21324f;
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -216,7 +219,7 @@ a:visited {
   padding: 1.5em;
   line-height: 1.5em;
   text-align: left;
-  color: white;
+  color: #21324f;
   font-size: 1em;
 }
 
@@ -230,20 +233,20 @@ a:visited {
 a.project-button {
   margin: 0.5em;
   padding: 0.5em;
-  background-color: #000;
-  color: #fff;
-  border: 0.1em solid #fff;
+  background-color: #f1f2eb;
+  color: #21324f;
+  border: 0.1em solid #21324f;
   border-radius: 0.2em;
   text-decoration: none;
 }
 
 a.project-button:hover {
   text-decoration: none;
-  background-color: #fff;
-  color: #000;
-  border-color: #000;
+  background-color: #21324f;
+  color: #f1f2eb;
+  border-color: #f1f2eb;
 }
 
 a.project-button:active {
-  background-color: #ccc;
+  background-color: #d8dad3;
 }
