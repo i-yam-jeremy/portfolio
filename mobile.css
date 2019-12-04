@@ -164,54 +164,29 @@
 }
 
 .mobile-project {
-  width: 24.55em;
-  height: 20em;
+  width: 24em;
   position: relative;
   overflow: hidden;
+  margin: 4em 0 4em 0;
 }
 
-.project > div, .project > img {
+.mobile-project > div, .mobile-project > img {
   width: 100%;
-  height: 100%;
 }
 
-.project-overlay {
+.mobile-project-desc {
   width: 100%;
-  position: absolute;
-  top: calc(100% - 2.5em);
-  background-color: rgba(241, 242, 235, 0.95);
+  background-color: #f1f2eb;
   margin: 0 auto;
   transition: 0.3s;
 }
 
-.project:hover > .project-overlay {
-  top: 0%;
-  transition: 0.3s;
-}
-
-.project-title {
-  margin: 0.25em;
-  color: #21324f;
-  font-size: 1.5em;
-  font-weight: 700;
-}
-
-.project-desc {
-  padding: 1.5em;
-  line-height: 1.5em;
-  text-align: left;
-  color: #21324f;
-  font-size: 1em;
-}
-
-.project-buttons {
-  position: absolute;
-  bottom: 0.25em;
-  right: 0.25em;
+.mobile-project-buttons {
   display: flex;
 }
 
-a.project-button {
+a.mobile-project-button {
+  font-size: 1.25em;
   margin: 0.5em;
   padding: 0.5em;
   background-color: #f1f2eb;
@@ -220,13 +195,6 @@ a.project-button {
   text-decoration: none;
 }
 
-a.project-button:hover {
-  text-decoration: none;
-  background-color: #21324f;
-  color: #f1f2eb;
-  border-color: #f1f2eb;
-}
-
-a.project-button:active {
+a.mobile-project-button:active {
   background-color: #d8dad3;
 }
