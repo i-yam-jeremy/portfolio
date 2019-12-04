@@ -55,9 +55,16 @@
 .mobile-header {
   font-size: 0.6em;
   text-align: center;
-  padding: 5em;
+  padding: 1em 5em 5em 5em;
   margin: 2em 0;
   background-color: #4e6266;
+}
+
+.mobile-header-title {
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 0 0.25em 0;
 }
 
 .mobile-home-artistic-line {
