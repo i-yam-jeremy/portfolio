@@ -109,8 +109,17 @@ a:visited {
 }
 
 .projects-container-row {
+  overflow: hidden;
   display: flex;
   flex-direction: row;
+}
+
+.projects-container-row-top {
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.projects-container-row-bottom {
+  border-radius: 0 0 0.5em 0.5em;
 }
 
 .project {
