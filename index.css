@@ -101,6 +101,8 @@ a:visited {
 }
 
 .interest-section {
+  background-color: #4e6266;
+  padding: 1em;
   display: flex;
   flex-grow: 1;
   flex-basis: 0;
