@@ -8,6 +8,7 @@ body {
   padding: 0;
   background-color: #21324f;
   color: #f1f2eb;
+  overflow: hidden;
 }
 
 a {
