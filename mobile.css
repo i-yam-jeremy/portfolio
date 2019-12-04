@@ -1,6 +1,7 @@
 .mobile-nav-side-pane {
   z-index: 10;
-  position: absolute;
+  position: fixed;
+  top: 0;
   right: 0;
   background-color: #19263d;
   border-left: 0.1em solid #f1f2eb;
