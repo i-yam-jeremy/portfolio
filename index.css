@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -100,6 +100,40 @@ a:visited {
 .interest-section-desc {
   text-align: left;
   /* TODO */
+}
+
+.skills-container {
+  padding-top: 5em;
+  width: 60vw;
+}
+
+.skill-category {
+  display: inline-block;
+  padding: 2em 2em 1em 2em;
+  border: 0.1em solid black;
+  border-radius: 0.5em;
+  height: 2.5em;
+  background-color: white;
+}
+
+.skill-category:hover {
+  filter: invert(100%);
+}
+
+.skill-category-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  float: left;
+}
+
+.skill-category-expand-arrow {
+  font-weight: 400;
+  transform: scaleX(2.0) rotate(90deg);
+}
+
+.skills {
+  position: absolute;
+  visibility: hidden;
 }
 
 .projects-container {
