@@ -19,7 +19,7 @@ function updateHomeGuidingLines() {
 
   for (const svgElement of document.getElementsByClassName("home-guiding-line")) {
     const polygon = svgElement.children[0];
-    polygon.setAttribute('points', `0,0 ${topLeftPoint[0] + 20},${topLeftPoint[1]} ${topLeftPoint[0]},${topLeftPoint[1] + 20}`);
+    polygon.setAttribute('points', `0,-60 -60,0 ${topLeftPoint[0]},${topLeftPoint[1]}`);
     svgElement.setAttribute('width', window.innerWidth/2);
     svgElement.setAttribute('height', window.innerHeight/2);
   }
