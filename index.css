@@ -34,9 +34,19 @@ a:visited {
   height: 100vh;
 }
 
+.home-guiding-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform-origin: 100% 100%;
+}
+
 .header {
   margin: auto;
   text-align: center;
+  padding: 5em;
+  background-color: #4e6266;
 }
 
 .header-title {
