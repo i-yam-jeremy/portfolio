@@ -41,6 +41,19 @@ function checkForMobile() {
   }
 }
 
+let isMobileNavSidePaneOpen = false;
+function toggleMobileNavSidePane() {
+  if (isMobileNavSidePaneOpen) {
+    $('#hamburger-button').removeClass('hamburger-button-open');
+    $('#hamburger-button').addClass('hamburger-button-closed');
+  }
+  else {
+    $('#hamburger-button').addClass('hamburger-button-open');
+    $('#hamburger-button').removeClass('hamburger-button-closed');
+  }
+  isMobileNavSidePaneOpen = !isMobileNavSidePaneOpen;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   selectPage('home');
   checkForMobile();

@@ -1,3 +1,30 @@
+.mobile-nav-side-pane {
+  position: absolute;
+  right: 0;
+  background-color: #21324f;
+  border: 0.1em solid #f1f2eb;
+}
+
+.hamburger-button {
+  margin: 0.5em;
+}
+
+.hamburger-button > img {
+  width: 3em;
+  height: 3em;
+  transition: 0.5s;
+}
+
+.hamburger-button-open > .closed, .hamburger-button-closed > .open {
+  opacity: 0;
+  width: 0em;
+}
+
+.hamburger-button-closed > .closed, .hamburger-button-open > .open {
+  opacity: 1;
+  width: 3em;
+}
+
 .mobile-header {
   font-size: 0.75em;
   margin: auto;
@@ -132,18 +159,6 @@
   display: flex;
   flex-direction: row;
 }
-
-/*.projects-container-row-top {
-  border-top: 0.5em solid #477998;
-  border-left: 0.5em solid #477998;
-  border-right: 0.5em solid #477998;
-}
-
-.projects-container-row-bottom {
-  border-bottom: 0.5em solid #477998;
-  border-left: 0.5em solid #477998;
-  border-right: 0.5em solid #477998;
-}*/
 
 .project {
   width: 27em;
