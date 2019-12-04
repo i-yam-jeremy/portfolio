@@ -1,71 +1,9 @@
-/*
- Color Palette: https://coolors.co/21324f-477998-93b7be-f1f2eb-d8dad3
-*/
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #21324f;
-  color: #f1f2eb;
-}
-
-a {
-  color: #f1f2eb;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  color: #f1f2eb;
-}
-
-a:visited {
-  color: #f1f2eb;
-}
-
-.view-container {
-  display: flex;
-  justify-content: space-around;
-  height: 100vh;
-}
-
-.home-guiding-line {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transform-origin: 100% 100%;
-}
-
-.header {
+.mobile-header {
+  font-size: 0.75em;
   margin: auto;
   text-align: center;
   padding: 5em;
   background-color: #4e6266;
-}
-
-.header-title {
-  font-size: 5em;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.header-subtitle {
-  font-size: 1.5em;
-  margin: 0;
-  padding: 0;
-}
-
-.header-subpages {
-  font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
 }
 
 .non-main-view-header {
@@ -195,7 +133,7 @@ a:visited {
   flex-direction: row;
 }
 
-.projects-container-row-top {
+/*.projects-container-row-top {
   border-top: 0.5em solid #477998;
   border-left: 0.5em solid #477998;
   border-right: 0.5em solid #477998;
@@ -205,7 +143,7 @@ a:visited {
   border-bottom: 0.5em solid #477998;
   border-left: 0.5em solid #477998;
   border-right: 0.5em solid #477998;
-}
+}*/
 
 .project {
   width: 27em;

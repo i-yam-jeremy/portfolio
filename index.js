@@ -1,12 +1,15 @@
 const pages = ['home', 'about-me', 'skills', 'projects'];
-
+let activePage = 'home';
 function selectPage(id) {
+  activePage = id;
   for (const page of pages) {
     if (page === id) {
       $('#' + page).show();
+      $('#mobile-' + page).show();
     }
     else {
       $('#' + page).hide();
+      $('#mobile-' + page).hide();
     }
   }
 }
@@ -25,11 +28,26 @@ function updateHomeGuidingLines() {
   }
 }
 
+function checkForMobile() {
+  if (window.innerWidth < window.innerHeight) {
+    $('#mobile').show();
+    $('#desktop').hide();
+    selectPage(activePage);
+  }
+  else {
+    $('#mobile').hide();
+    $('#desktop').show();
+    selectPage(activePage);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   selectPage('home');
+  checkForMobile();
   updateHomeGuidingLines();
 });
 
 window.addEventListener('resize', () => {
+  checkForMobile();
   updateHomeGuidingLines();
 });
