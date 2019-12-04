@@ -77,6 +77,12 @@ a:visited {
   width: 80%;
 }
 
+.about-me-bio {
+  font-size: 1.5em;
+  width: 60%;
+  margin: 0 auto;
+}
+
 .interest-section-container {
   padding-top: 5em;
   display: flex;
@@ -88,6 +94,7 @@ a:visited {
   flex-basis: 0;
   flex-direction: column;
   margin: 7em;
+  position: relative;
 }
 
 .interest-section-title {
@@ -95,9 +102,16 @@ a:visited {
   font-size: 2em;
 }
 
+.about-me-guiding-line {
+  position: absolute;
+  top: -8em;
+  transform: scale(2.4, 1.8);
+  right: 6em;
+}
+
 .interest-section-desc {
   text-align: left;
-  /* TODO */
+  font-size: 1.5em;
 }
 
 .skills-container {

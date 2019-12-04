@@ -2,6 +2,8 @@
   <head>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="index.css"></link>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
     <title>Jeremy Berchtold</title>
   </head>
   <body>
@@ -10,9 +12,9 @@
         <p class="header-title">Jeremy Berchtold</p>
         <p class="header-subtitle">Computer Science - Cal Poly SLO, 2021</p>
         <p class="header-subpages">
-          <a href="#about-me">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
+          <a href="javascript:selectPage('about-me')">About Me</a>
+          <a href="javascript:selectPage('skills')">Skills</a>
+          <a href="javascript:selectPage('projects')">Projects</a>
           <a href="resources/Resume.pdf">Resume</a>
           <a href="resources/WritingSample.pdf">Writing Sample</a>
         </p>
@@ -23,19 +25,22 @@
       <div class="about-me-container">
         <div class="non-main-view-header">
           <p class="non-main-view-subpages">
-            <a href="#home">Home</a>
-            <a href="#about-me">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
+            <a href="javascript:selectPage('home')">Home</a>
+            <a href="javascript:selectPage('about-me')">About Me</a>
+            <a href="javascript:selectPage('skills')">Skills</a>
+            <a href="javascript:selectPage('projects')">Projects</a>
             <a href="#">Resume</a>
           </p>
           <p class="header-title">About Me</p>
-          <div class="">I'm Jeremy, a Software Developer from the Bay Area, CA. I'm a 3rd year CS major at Cal Poly SLO.</div>
+          <div class="about-me-bio">I'm Jeremy, a Software Developer from the Bay Area, CA. I'm a 3rd year CS major at Cal Poly SLO.</div>
         </div>
         <div class="interest-section-container">
           <div class="interest-section">
+            <!--<svg class="about-me-guiding-line" height="100" width="100">
+             <polygon points="0,100 40,100 100,0" style="fill:#19263d;" />
+            </svg>-->
             <p class="interest-section-title">Front-End</p>
-            <p class="interest-section-desc">The beauty is my favorite part of front-end web development. Providing a clean user-experience is one of my passions</p>
+            <p class="interest-section-desc">My favorite part of front-end web development is the elegance. Providing a clean user-experience is one of my passions</p>
           </div>
           <div class="interest-section">
             <p class="interest-section-title">Graphics</p>
@@ -48,10 +53,10 @@
     <div id="skills" class="view-container">
       <div class="non-main-view-header">
         <p class="non-main-view-subpages">
-          <a href="#home">Home</a>
-          <a href="#about-me">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
+          <a href="javascript:selectPage('home')">Home</a>
+          <a href="javascript:selectPage('about-me')">About Me</a>
+          <a href="javascript:selectPage('skills')">Skills</a>
+          <a href="javascript:selectPage('projects')">Projects</a>
           <a href="#">Resume</a>
         </p>
         <p class="header-title">Skills</p>
@@ -101,10 +106,10 @@
     <div id="projects" class="view-container">
       <div class="non-main-view-header">
         <p class="non-main-view-subpages">
-          <a href="#home">Home</a>
-          <a href="#about-me">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
+          <a href="javascript:selectPage('home')">Home</a>
+          <a href="javascript:selectPage('about-me')">About Me</a>
+          <a href="javascript:selectPage('skills')">Skills</a>
+          <a href="javascript:selectPage('projects')">Projects</a>
           <a href="#">Resume</a>
         </p>
         <p class="header-title">Projects</p>
