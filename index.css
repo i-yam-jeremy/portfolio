@@ -90,6 +90,12 @@ a:visited {
   justify-content: space-between;
 }
 
+.icon-credit {
+  position: absolute;
+  right: 0.25em;
+  bottom: 0.25em;
+}
+
 .about-me-container {
   text-align: center;
   width: 80%;
