@@ -124,7 +124,6 @@ a:visited {
 .skill-category {
   padding: 2em 2em 1em 2em;
   border: 0.1em solid #f1f2eb;
-  border-radius: 0.5em;
   height: 2.5em;
   background-color: #21324f;
   position: relative;
@@ -183,14 +182,12 @@ a:visited {
 }
 
 .projects-container-row-top {
-  border-radius: 0.5em 0.5em 0 0;
   border-top: 0.5em solid #477998;
   border-left: 0.5em solid #477998;
   border-right: 0.5em solid #477998;
 }
 
 .projects-container-row-bottom {
-  border-radius: 0 0 0.5em 0.5em;
   border-bottom: 0.5em solid #477998;
   border-left: 0.5em solid #477998;
   border-right: 0.5em solid #477998;
@@ -250,7 +247,6 @@ a.project-button {
   background-color: #f1f2eb;
   color: #21324f;
   border: 0.1em solid #21324f;
-  border-radius: 0.2em;
   text-decoration: none;
 }
 
