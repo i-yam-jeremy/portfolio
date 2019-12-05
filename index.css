@@ -58,7 +58,7 @@ a:visited {
 }
 
 .header-title {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -102,9 +102,32 @@ a:visited {
 }
 
 .about-me-bio {
-  font-size: 1.5em;
-  width: 60%;
-  margin: 0 auto;
+  background-color: #f1f2eb;
+  color: black;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.5em;
+  width: 40%;
+  margin: 2em auto 0 auto;
+  padding: 1.5em;
+}
+
+.about-me-bio > a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.about-me-bio > a:hover {
+  text-decoration: underline;
+}
+
+.about-me-bio > a:active {
+  color: black;
+}
+
+.about-me-bio > a:visited {
+  color: black;
 }
 
 .interest-section-container {
@@ -113,7 +136,6 @@ a:visited {
 }
 
 .interest-section {
-  background-color: #4e6266;
   padding: 1em;
   display: flex;
   flex-grow: 1;
@@ -136,8 +158,12 @@ a:visited {
 }
 
 .interest-section-desc {
+  background-color: #f1f2eb;
+  color: black;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 1.5em;
 }
 
 .skills-container {

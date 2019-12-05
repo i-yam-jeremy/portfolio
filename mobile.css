@@ -84,12 +84,6 @@
   width: 140%;
 }
 
-.about-me-bio {
-  font-size: 1.5em;
-  width: 60%;
-  margin: 0 auto;
-}
-
 .mobile-interest-section-container {
   font-size: 0.8em;
   padding-top: 5em;
@@ -105,23 +99,6 @@
   flex-direction: column;
   margin: 2em;
   position: relative;
-}
-
-.interest-section-title {
-  font-weight: 700;
-  font-size: 2em;
-}
-
-.about-me-guiding-line {
-  position: absolute;
-  top: -8em;
-  transform: scale(2.4, 1.8);
-  right: 6em;
-}
-
-.interest-section-desc {
-  text-align: left;
-  font-size: 1.5em;
 }
 
 .mobile-skills-container {
