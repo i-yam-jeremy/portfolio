@@ -84,9 +84,13 @@
   width: 140%;
 }
 
+.mobile-about-me-bio {
+  width: 80%;
+}
+
 .mobile-interest-section-container {
   font-size: 0.8em;
-  padding-top: 5em;
+  padding-top: 1.5em;
   margin: auto;
   display: flex;
   flex-direction: column;
