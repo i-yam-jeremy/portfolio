@@ -1,3 +1,7 @@
+#mobile {
+  font-size: 3em;
+}
+
 .mobile-nav-side-pane {
   z-index: 10;
   position: fixed;
