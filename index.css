@@ -173,7 +173,7 @@ a:visited {
 }
 
 .skill-category {
-  padding: 1.5em 2em 1.5em 2em;
+  padding: 2em 2em 2em 2em;
   border: 0.1em solid #f1f2eb;
   height: 2.5em;
   background-color: #21324f;
@@ -185,6 +185,7 @@ a:visited {
 }
 
 .skill-category-title {
+  white-space: nowrap;
   font-size: 1.5em;
   font-weight: 600;
   float: left;
