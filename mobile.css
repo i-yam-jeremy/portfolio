@@ -110,8 +110,6 @@
 
 .mobile-interest-section {
   display: flex;
-  flex-grow: 1;
-  flex-basis: 0;
   flex-direction: column;
   margin: 2em;
   position: relative;
