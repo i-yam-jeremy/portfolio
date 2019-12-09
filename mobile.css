@@ -28,6 +28,14 @@
   margin: 0.5em;
 }
 
+.hamburger-button-closed {
+  width: 3em;
+}
+
+.hamburger-button-open {
+  width: 12em;
+}
+
 .hamburger-button > img {
   float: right;
   width: 3em;
